@@ -52,10 +52,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     persist.sys.usb.config=mtp
 
-PRODUCT_PROPERTY_OVERRIDES += \
-	ro.telephony.call_ring.delay=0 \
-	ring.delay=0
-
 # Screen density
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := 560dpi
