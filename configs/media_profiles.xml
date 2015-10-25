@@ -423,8 +423,8 @@
         for TEST applications. For other applications, we do
         not perform any checks at all.
     -->
-    <VideoDecoderCap name="wmv" enabled="true" />
-    <AudioDecoderCap name="wma" enabled="true" />
+    <VideoDecoderCap name="wmv" enabled="true"/>
+    <AudioDecoderCap name="wma" enabled="true"/>
 
     <!--
     LGE_CHAGE[fefe7270.park] Add LgeCamcorderCap
