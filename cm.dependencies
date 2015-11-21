@@ -1,0 +1,26 @@
+[
+  {
+    "repository": "android_kernel_lge_g3",
+    "target_path": "kernel/lge/g3"
+  },
+  {
+    "repository": "android_device_qcom_common",
+    "target_path": "device/qcom/common"
+  },
+  {
+    "repository": "android_external_stlport",
+    "target_path": "external/stlport"
+  },
+  {
+    "repository": "android_hardware_sony_thermanager",
+    "target_path": "hardware/sony/thermanager"
+  },
+  {
+    "repository": "android_external_sony_boringssl-compat",
+    "target_path": "external/sony/boringssl-compat"
+  },
+  {
+    "repository": "android_external_connectivity",
+    "target_path": "external/connectivity"
+  }
+]
