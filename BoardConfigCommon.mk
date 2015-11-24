@@ -69,6 +69,17 @@ COMMON_GLOBAL_CFLAGS += -DPROPERTY_PERMS_APPEND=' \
 BOARD_HARDWARE_CLASS := $(LOCAL_PATH)/cmhw/
 TARGET_TAP_TO_WAKE_NODE := "/sys/devices/virtual/input/lge_touch/tap_to_wake"
 
+# Enable dex-preoptimization to speed up first boot sequence
+ifeq ($(HOST_OS),linux)
+  ifeq ($(TARGET_BUILD_VARIANT),user)
+    ifeq ($(WITH_DEXPREOPT),)
+      WITH_DEXPREOPT := true
+      DONT_DEXPREOPT_PREBUILTS := true
+    endif
+  endif 
+endif
+WITH_DEXPREOPT_BOOT_IMG_ONLY ?= true
+
 # Crypto
 TARGET_HW_DISK_ENCRYPTION := true
 
