@@ -108,10 +108,6 @@ PRODUCT_PACKAGES += \
     memtrack.msm8974 \
     liboverlay
 
-# Filesystem
-PRODUCT_PACKAGES += \
-    e2fsck
-
 # GPS
 PRODUCT_PACKAGES += \
     gps.msm8974
@@ -216,10 +212,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/thermanager.xml:system/etc/thermanager.xml
-
-# USB
-PRODUCT_PACKAGES += \
-    com.android.future.usb.accessory
 
 # Wifi
 PRODUCT_PACKAGES += \
