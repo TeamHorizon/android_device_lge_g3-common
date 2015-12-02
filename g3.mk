@@ -185,6 +185,7 @@ PRODUCT_PACKAGES += \
     init.galbi.sensor.sh \
     init.qcom.early_boot.sh \
     init.qcom.sh \
+    init.baseband.sh \
     ueventd.g3.rc
 
 # RIL symbols
