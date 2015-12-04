@@ -103,6 +103,10 @@ PRODUCT_PACKAGES += \
     hwcomposer.msm8974 \
     memtrack.msm8974 \
     liboverlay
+    
+# QuickCircle Case App
+PRODUCT_PACKAGES += \
+    QuickCircle
 
 # GPS
 PRODUCT_PACKAGES += \
