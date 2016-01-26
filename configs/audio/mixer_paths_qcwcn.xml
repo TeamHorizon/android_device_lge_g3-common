@@ -1156,6 +1156,7 @@
         <ctl name="DEC6 Volume" value="60" />
     </path>
 
+    <!-- CM: audio-record IN handset mic -->
     <path name="voice-memo">
         <path name="handset-mic" />
         <ctl name="ADC1 Volume" value="7" />
@@ -1168,6 +1169,7 @@
         <ctl name="DEC5 Volume" value="60" />
     </path>
 
+    <!-- CM: audio-record IN headset mic -->
     <path name="headset-voice-memo">
         <path name="adc2" />
         <ctl name="ADC2 Volume" value="9" />
