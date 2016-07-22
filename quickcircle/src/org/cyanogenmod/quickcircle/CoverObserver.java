@@ -32,7 +32,7 @@ import android.provider.Settings;
 import android.util.Log;
 
 class CoverObserver extends UEventObserver {
-    private static final String COVER_UEVENT_MATCH = "DEVPATH=/devices/virtual/switch/smartcover";
+    private static final String COVER_UEVENT_MATCH = "/sys/devices/virtual/switch/smartcover";
 
     private static final String TAG = "QuickCircle";
 
