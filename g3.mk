@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2016 The CyanogenMod Project
+# Copyright (C) 2016 The CyanogenMos Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -118,10 +118,6 @@ PRODUCT_PACKAGES += \
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-impl
-
-# FlipFlap
-PRODUCT_PACKAGES += \
-    FlipFlap
 
 # IPv6 tethering
 PRODUCT_PACKAGES += \
